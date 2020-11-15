@@ -1,0 +1,2113 @@
+{
+  "hociReport": {
+    "hociSiteId": "birmingham",
+    "hociSiteDisplayName": "Birmingham",
+    "cogukExtensionVersion": "0.1.6",
+    "hociExtensionVersion": "0.1.9",
+    "projectVersion": "0.1.13",
+    "glueVersion": "1.1.103",
+    "reportGenerationDate": "15-OCT-2020",
+    "focusSequence": {
+      "sequence.sequenceID": "BIRM-922FD",
+      "genome_coverage": 95.52857968649053,
+      "sampling_centre_id": null,
+      "institution_id": "Hospital_1",
+      "unit_id": "Unit_1",
+      "is_healthcare_worker": false,
+      "hcw_workplace_id": null,
+      "residential_outer_postcode": "B26",
+      "sample_date": "02-May-2020",
+      "admission_status": "inpatient",
+      "admission_date": "01-Apr-2020",
+      "symptomatic": true,
+      "symptom_onset_date": "29-Apr-2020",
+      "visitors_on_ward": true,
+      "unit_history_pre": null,
+      "unit_history_post": null,
+      "adm_to_symp_onset_days": 28,
+      "adm_to_sample_days": 31,
+      "ambiguousSites": [],
+      "sequence.cov_glue_lineage": "B.1",
+      "days_admission_to_onset": 28,
+      "all_units": [
+        "Unit_1"
+      ],
+      "snps": [
+        "C1059T",
+        "C3037T",
+        "C14408T",
+        "A23403G",
+        "G25563T",
+        "T29326G"
+      ]
+    },
+    "unitReferenceSet": [
+      {
+        "sequence.sequenceID": "BIRM-04GA5",
+        "genome_coverage": 95.52857968649053,
+        "sampling_centre_id": null,
+        "institution_id": "Hospital_1",
+        "unit_id": "Unit_1",
+        "is_healthcare_worker": false,
+        "hcw_workplace_id": null,
+        "sample_date": "01-May-2020",
+        "admission_status": "inpatient",
+        "admission_date": "05-Apr-2020",
+        "symptomatic": true,
+        "symptom_onset_date": "23-Apr-2020",
+        "visitors_on_ward": true,
+        "unit_history_pre": "Unit_2",
+        "unit_history_post": null,
+        "adm_to_symp_onset_days": 18,
+        "adm_to_sample_days": 26,
+        "ambiguousSites": [],
+        "sequence.cov_glue_lineage": "B.1",
+        "csr_coverage": "96",
+        "focusSnpsAbsent": [],
+        "focusSnpsMissing": [],
+        "snpsAbsentInFocus": [],
+        "snpsMissingInFocus": [],
+        "snpLocations": [
+          {
+            "location": "1059",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3037",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14408",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23403",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25563",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29326",
+            "coverage": "coverage"
+          }
+        ],
+        "numSnpLocations": 6,
+        "numSnpLocationsWithInsufficientCoverage": 0,
+        "sameOutcodeAsFocus": true,
+        "distanceToFocusKm": "0.0",
+        "isCloseMatch": true,
+        "snpDistanceFromFocus": 0,
+        "matching_units": [],
+        "unmatched_units": [
+          "Unit_2"
+        ]
+      },
+      {
+        "sequence.sequenceID": "BIRM-8D354",
+        "genome_coverage": 95.52857968649053,
+        "sampling_centre_id": null,
+        "institution_id": "Hospital_1",
+        "unit_id": "Unit_1",
+        "is_healthcare_worker": false,
+        "hcw_workplace_id": null,
+        "sample_date": "23-Apr-2020",
+        "admission_status": "inpatient",
+        "admission_date": "04-Apr-2020",
+        "symptomatic": false,
+        "symptom_onset_date": null,
+        "visitors_on_ward": true,
+        "unit_history_pre": "Unit_2|Unit_3",
+        "unit_history_post": null,
+        "adm_to_symp_onset_days": null,
+        "adm_to_sample_days": 19,
+        "ambiguousSites": [],
+        "sequence.cov_glue_lineage": "B.1",
+        "csr_coverage": "96",
+        "focusSnpsAbsent": [],
+        "focusSnpsMissing": [],
+        "snpsAbsentInFocus": [],
+        "snpsMissingInFocus": [],
+        "snpLocations": [
+          {
+            "location": "1059",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3037",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14408",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23403",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25563",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29326",
+            "coverage": "coverage"
+          }
+        ],
+        "numSnpLocations": 6,
+        "numSnpLocationsWithInsufficientCoverage": 0,
+        "sameOutcodeAsFocus": false,
+        "distanceToFocusKm": "3",
+        "isCloseMatch": true,
+        "snpDistanceFromFocus": 0,
+        "matching_units": [],
+        "unmatched_units": [
+          "Unit_2",
+          "Unit_3"
+        ]
+      },
+      {
+        "sequence.sequenceID": "BIRM-07H34",
+        "genome_coverage": 99.99319936073991,
+        "sampling_centre_id": null,
+        "institution_id": "Hospital_1",
+        "unit_id": "Unit_1",
+        "is_healthcare_worker": false,
+        "hcw_workplace_id": null,
+        "sample_date": "23-Apr-2020",
+        "admission_status": "inpatient",
+        "admission_date": "04-Apr-2020",
+        "symptomatic": false,
+        "symptom_onset_date": null,
+        "visitors_on_ward": true,
+        "unit_history_pre": "Unit_3",
+        "unit_history_post": null,
+        "adm_to_symp_onset_days": null,
+        "adm_to_sample_days": 19,
+        "ambiguousSites": [],
+        "sequence.cov_glue_lineage": "B.1.1",
+        "csr_coverage": "100",
+        "focusSnpsAbsent": [
+          "C1059T",
+          "G25563T",
+          "T29326G"
+        ],
+        "focusSnpsMissing": [],
+        "snpsAbsentInFocus": [
+          "C15277T",
+          "G28881A",
+          "G28882A",
+          "G28883C"
+        ],
+        "snpsMissingInFocus": [],
+        "snpLocations": [
+          {
+            "location": "1059",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3037",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14408",
+            "coverage": "coverage"
+          },
+          {
+            "location": "15277",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23403",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25563",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28881",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28882",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28883",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29326",
+            "coverage": "coverage"
+          }
+        ],
+        "numSnpLocations": 10,
+        "numSnpLocationsWithInsufficientCoverage": 0,
+        "sameOutcodeAsFocus": false,
+        "distanceToFocusKm": "3",
+        "isCloseMatch": false,
+        "snpDistanceFromFocus": 7,
+        "matching_units": [],
+        "unmatched_units": [
+          "Unit_3"
+        ]
+      }
+    ],
+    "institutionReferenceSet": [
+      {
+        "sequence.sequenceID": "BIRM-7DF01",
+        "genome_coverage": 95.52857968649053,
+        "sampling_centre_id": "Test_centre_1",
+        "institution_id": null,
+        "unit_id": null,
+        "is_healthcare_worker": true,
+        "hcw_workplace_id": "Hospital_1",
+        "sample_date": "09-May-2020",
+        "admission_status": null,
+        "admission_date": null,
+        "symptomatic": null,
+        "symptom_onset_date": null,
+        "visitors_on_ward": null,
+        "unit_history_pre": null,
+        "unit_history_post": null,
+        "adm_to_symp_onset_days": null,
+        "adm_to_sample_days": null,
+        "ambiguousSites": [],
+        "sequence.cov_glue_lineage": "B.1",
+        "csr_coverage": "96",
+        "focusSnpsAbsent": [],
+        "focusSnpsMissing": [],
+        "snpsAbsentInFocus": [],
+        "snpsMissingInFocus": [],
+        "snpLocations": [
+          {
+            "location": "1059",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3037",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14408",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23403",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25563",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29326",
+            "coverage": "coverage"
+          }
+        ],
+        "numSnpLocations": 6,
+        "numSnpLocationsWithInsufficientCoverage": 0,
+        "sameOutcodeAsFocus": false,
+        "distanceToFocusKm": "13",
+        "isCloseMatch": true,
+        "snpDistanceFromFocus": 0,
+        "matching_units": [],
+        "unmatched_units": []
+      },
+      {
+        "sequence.sequenceID": "BIRM-92AB1",
+        "genome_coverage": 95.49117617056004,
+        "sampling_centre_id": null,
+        "institution_id": "Hospital_1",
+        "unit_id": null,
+        "is_healthcare_worker": false,
+        "hcw_workplace_id": null,
+        "sample_date": "25-Apr-2020",
+        "admission_status": "a_and_e_patient",
+        "admission_date": null,
+        "symptomatic": true,
+        "symptom_onset_date": "21-Apr-2020",
+        "visitors_on_ward": null,
+        "unit_history_pre": "Unit_3",
+        "unit_history_post": null,
+        "adm_to_symp_onset_days": null,
+        "adm_to_sample_days": null,
+        "ambiguousSites": [],
+        "sequence.cov_glue_lineage": "B.1",
+        "csr_coverage": "95",
+        "focusSnpsAbsent": [],
+        "focusSnpsMissing": [
+          "C14408T"
+        ],
+        "snpsAbsentInFocus": [],
+        "snpsMissingInFocus": [],
+        "snpLocations": [
+          {
+            "location": "1059",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3037",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14408",
+            "coverage": "no_coverage"
+          },
+          {
+            "location": "23403",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25563",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29326",
+            "coverage": "coverage"
+          }
+        ],
+        "numSnpLocations": 6,
+        "numSnpLocationsWithInsufficientCoverage": 1,
+        "sameOutcodeAsFocus": false,
+        "distanceToFocusKm": "11",
+        "isCloseMatch": true,
+        "snpDistanceFromFocus": 0,
+        "matching_units": [],
+        "unmatched_units": [
+          "Unit_3"
+        ]
+      },
+      {
+        "sequence.sequenceID": "BIRM-5EDA2",
+        "genome_coverage": 92.85252813764494,
+        "sampling_centre_id": "Test_centre_2",
+        "institution_id": null,
+        "unit_id": null,
+        "is_healthcare_worker": true,
+        "hcw_workplace_id": "Hospital_1",
+        "sample_date": "23-Apr-2020",
+        "admission_status": null,
+        "admission_date": null,
+        "symptomatic": null,
+        "symptom_onset_date": null,
+        "visitors_on_ward": null,
+        "unit_history_pre": null,
+        "unit_history_post": null,
+        "adm_to_symp_onset_days": null,
+        "adm_to_sample_days": null,
+        "ambiguousSites": [],
+        "sequence.cov_glue_lineage": "B.1.1.9",
+        "csr_coverage": "93",
+        "focusSnpsAbsent": [
+          "C1059T",
+          "G25563T",
+          "T29326G"
+        ],
+        "focusSnpsMissing": [],
+        "snpsAbsentInFocus": [
+          "C2710T",
+          "A4926C",
+          "G6975T",
+          "A10948G",
+          "G15649T",
+          "G28881A",
+          "G28882A",
+          "G28883C"
+        ],
+        "snpsMissingInFocus": [],
+        "snpLocations": [
+          {
+            "location": "1059",
+            "coverage": "coverage"
+          },
+          {
+            "location": "2710",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3037",
+            "coverage": "coverage"
+          },
+          {
+            "location": "4926",
+            "coverage": "coverage"
+          },
+          {
+            "location": "6975",
+            "coverage": "coverage"
+          },
+          {
+            "location": "10948",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14408",
+            "coverage": "coverage"
+          },
+          {
+            "location": "15649",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23403",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25563",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28881",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28882",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28883",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29326",
+            "coverage": "coverage"
+          }
+        ],
+        "numSnpLocations": 14,
+        "numSnpLocationsWithInsufficientCoverage": 0,
+        "sameOutcodeAsFocus": true,
+        "distanceToFocusKm": "0.0",
+        "isCloseMatch": false,
+        "snpDistanceFromFocus": 11,
+        "matching_units": [],
+        "unmatched_units": []
+      },
+      {
+        "sequence.sequenceID": "BIRM-08AB1",
+        "genome_coverage": 99.99319936073991,
+        "sampling_centre_id": null,
+        "institution_id": "Hospital_1",
+        "unit_id": null,
+        "is_healthcare_worker": false,
+        "hcw_workplace_id": null,
+        "sample_date": "25-Apr-2020",
+        "admission_status": "outpatient",
+        "admission_date": null,
+        "symptomatic": true,
+        "symptom_onset_date": "21-Apr-2020",
+        "visitors_on_ward": null,
+        "unit_history_pre": null,
+        "unit_history_post": null,
+        "adm_to_symp_onset_days": null,
+        "adm_to_sample_days": null,
+        "ambiguousSites": [],
+        "sequence.cov_glue_lineage": "B.1.1.1",
+        "csr_coverage": "100",
+        "focusSnpsAbsent": [
+          "C1059T",
+          "G25563T",
+          "T29326G"
+        ],
+        "focusSnpsMissing": [],
+        "snpsAbsentInFocus": [
+          "C1909T",
+          "C2939T",
+          "G10097A",
+          "C23731T",
+          "G28580T",
+          "G28881A",
+          "G28882A",
+          "G28883C"
+        ],
+        "snpsMissingInFocus": [],
+        "snpLocations": [
+          {
+            "location": "1059",
+            "coverage": "coverage"
+          },
+          {
+            "location": "1909",
+            "coverage": "coverage"
+          },
+          {
+            "location": "2939",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3037",
+            "coverage": "coverage"
+          },
+          {
+            "location": "10097",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14408",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23403",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23731",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25563",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28580",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28881",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28882",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28883",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29326",
+            "coverage": "coverage"
+          }
+        ],
+        "numSnpLocations": 14,
+        "numSnpLocationsWithInsufficientCoverage": 0,
+        "sameOutcodeAsFocus": false,
+        "distanceToFocusKm": "11",
+        "isCloseMatch": false,
+        "snpDistanceFromFocus": 11,
+        "matching_units": [],
+        "unmatched_units": []
+      }
+    ],
+    "communityReferenceSet": [
+      {
+        "sequence.sequenceID": "BIRM-08AB1",
+        "genome_coverage": 99.99319936073991,
+        "sampling_centre_id": null,
+        "institution_id": "Hospital_1",
+        "unit_id": null,
+        "is_healthcare_worker": false,
+        "hcw_workplace_id": null,
+        "sample_date": "25-Apr-2020",
+        "admission_status": "outpatient",
+        "admission_date": null,
+        "symptomatic": true,
+        "symptom_onset_date": "21-Apr-2020",
+        "visitors_on_ward": null,
+        "unit_history_pre": null,
+        "unit_history_post": null,
+        "adm_to_symp_onset_days": null,
+        "adm_to_sample_days": null,
+        "ambiguousSites": [],
+        "sequence.cov_glue_lineage": "B.1.1.1",
+        "csr_coverage": "100",
+        "focusSnpsAbsent": [
+          "C1059T",
+          "G25563T",
+          "T29326G"
+        ],
+        "focusSnpsMissing": [],
+        "snpsAbsentInFocus": [
+          "C1909T",
+          "C2939T",
+          "G10097A",
+          "C23731T",
+          "G28580T",
+          "G28881A",
+          "G28882A",
+          "G28883C"
+        ],
+        "snpsMissingInFocus": [],
+        "snpLocations": [
+          {
+            "location": "1059",
+            "coverage": "coverage"
+          },
+          {
+            "location": "1909",
+            "coverage": "coverage"
+          },
+          {
+            "location": "2939",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3037",
+            "coverage": "coverage"
+          },
+          {
+            "location": "10097",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14408",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23403",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23731",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25563",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28580",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28881",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28882",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28883",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29326",
+            "coverage": "coverage"
+          }
+        ],
+        "numSnpLocations": 14,
+        "numSnpLocationsWithInsufficientCoverage": 0,
+        "isCloseMatch": false,
+        "snpDistanceFromFocus": 11,
+        "sameOutcodeAsFocus": false,
+        "distanceToFocusKm": "11",
+        "geographicWeighting": 0.5000083508503951
+      },
+      {
+        "sequence.sequenceID": "BIRM-09BF7",
+        "genome_coverage": 99.99659968036995,
+        "sampling_centre_id": "Test_centre_1",
+        "institution_id": null,
+        "unit_id": null,
+        "is_healthcare_worker": null,
+        "hcw_workplace_id": null,
+        "sample_date": "09-May-2020",
+        "admission_status": null,
+        "admission_date": null,
+        "symptomatic": null,
+        "symptom_onset_date": null,
+        "visitors_on_ward": null,
+        "unit_history_pre": null,
+        "unit_history_post": null,
+        "adm_to_symp_onset_days": null,
+        "adm_to_sample_days": null,
+        "ambiguousSites": [],
+        "sequence.cov_glue_lineage": "B.1.1.1",
+        "csr_coverage": "100",
+        "focusSnpsAbsent": [
+          "C1059T",
+          "G25563T",
+          "T29326G"
+        ],
+        "focusSnpsMissing": [],
+        "snpsAbsentInFocus": [
+          "C1909T",
+          "G10097A",
+          "C23731T",
+          "G25690T",
+          "G28580T",
+          "G28881A",
+          "G28882A",
+          "G28883C"
+        ],
+        "snpsMissingInFocus": [],
+        "snpLocations": [
+          {
+            "location": "1059",
+            "coverage": "coverage"
+          },
+          {
+            "location": "1909",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3037",
+            "coverage": "coverage"
+          },
+          {
+            "location": "10097",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14408",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23403",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23731",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25563",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25690",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28580",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28881",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28882",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28883",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29326",
+            "coverage": "coverage"
+          }
+        ],
+        "numSnpLocations": 14,
+        "numSnpLocationsWithInsufficientCoverage": 0,
+        "isCloseMatch": false,
+        "snpDistanceFromFocus": 11,
+        "sameOutcodeAsFocus": false,
+        "distanceToFocusKm": "11",
+        "geographicWeighting": 0.5000083508503951
+      },
+      {
+        "sequence.sequenceID": "BIRM-09D12",
+        "genome_coverage": 99.25873032065014,
+        "sampling_centre_id": "Test_centre_1",
+        "institution_id": null,
+        "unit_id": null,
+        "is_healthcare_worker": null,
+        "hcw_workplace_id": null,
+        "sample_date": "29-Apr-2020",
+        "admission_status": null,
+        "admission_date": null,
+        "symptomatic": null,
+        "symptom_onset_date": null,
+        "visitors_on_ward": null,
+        "unit_history_pre": null,
+        "unit_history_post": null,
+        "adm_to_symp_onset_days": null,
+        "adm_to_sample_days": null,
+        "ambiguousSites": [],
+        "sequence.cov_glue_lineage": "B.1",
+        "csr_coverage": "99",
+        "focusSnpsAbsent": [
+          "T29326G"
+        ],
+        "focusSnpsMissing": [],
+        "snpsAbsentInFocus": [
+          "C9474T",
+          "T14868C",
+          "C16848T",
+          "A24993C"
+        ],
+        "snpsMissingInFocus": [],
+        "snpLocations": [
+          {
+            "location": "1059",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3037",
+            "coverage": "coverage"
+          },
+          {
+            "location": "9474",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14408",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14868",
+            "coverage": "coverage"
+          },
+          {
+            "location": "16848",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23403",
+            "coverage": "coverage"
+          },
+          {
+            "location": "24993",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25563",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29326",
+            "coverage": "coverage"
+          }
+        ],
+        "numSnpLocations": 10,
+        "numSnpLocationsWithInsufficientCoverage": 0,
+        "isCloseMatch": false,
+        "snpDistanceFromFocus": 5,
+        "sameOutcodeAsFocus": false,
+        "distanceToFocusKm": "3",
+        "geographicWeighting": 0.5248935341839319
+      },
+      {
+        "sequence.sequenceID": "BIRM-5E2A3",
+        "genome_coverage": 99.99319936073991,
+        "sampling_centre_id": "Test_centre_1",
+        "institution_id": null,
+        "unit_id": null,
+        "is_healthcare_worker": null,
+        "hcw_workplace_id": null,
+        "sample_date": "23-Apr-2020",
+        "admission_status": null,
+        "admission_date": null,
+        "symptomatic": null,
+        "symptom_onset_date": null,
+        "visitors_on_ward": null,
+        "unit_history_pre": null,
+        "unit_history_post": null,
+        "adm_to_symp_onset_days": null,
+        "adm_to_sample_days": null,
+        "ambiguousSites": [],
+        "sequence.cov_glue_lineage": "B.1.1",
+        "csr_coverage": "100",
+        "focusSnpsAbsent": [
+          "C1059T",
+          "G25563T",
+          "T29326G"
+        ],
+        "focusSnpsMissing": [],
+        "snpsAbsentInFocus": [
+          "C15277T",
+          "G28881A",
+          "G28882A",
+          "G28883C"
+        ],
+        "snpsMissingInFocus": [],
+        "snpLocations": [
+          {
+            "location": "1059",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3037",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14408",
+            "coverage": "coverage"
+          },
+          {
+            "location": "15277",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23403",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25563",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28881",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28882",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28883",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29326",
+            "coverage": "coverage"
+          }
+        ],
+        "numSnpLocations": 10,
+        "numSnpLocationsWithInsufficientCoverage": 0,
+        "isCloseMatch": false,
+        "snpDistanceFromFocus": 7,
+        "sameOutcodeAsFocus": false,
+        "distanceToFocusKm": "11",
+        "geographicWeighting": 0.5000083508503951
+      },
+      {
+        "sequence.sequenceID": "BIRM-5E30A",
+        "genome_coverage": 99.98979904110986,
+        "sampling_centre_id": "Test_centre_1",
+        "institution_id": null,
+        "unit_id": null,
+        "is_healthcare_worker": null,
+        "hcw_workplace_id": null,
+        "sample_date": "29-Apr-2020",
+        "admission_status": null,
+        "admission_date": null,
+        "symptomatic": null,
+        "symptom_onset_date": null,
+        "visitors_on_ward": null,
+        "unit_history_pre": null,
+        "unit_history_post": null,
+        "adm_to_symp_onset_days": null,
+        "adm_to_sample_days": null,
+        "ambiguousSites": [],
+        "sequence.cov_glue_lineage": "B.1.1",
+        "csr_coverage": "100",
+        "focusSnpsAbsent": [
+          "C1059T",
+          "G25563T",
+          "T29326G"
+        ],
+        "focusSnpsMissing": [],
+        "snpsAbsentInFocus": [
+          "G28881A",
+          "G28882A",
+          "G28883C",
+          "G29449T"
+        ],
+        "snpsMissingInFocus": [],
+        "snpLocations": [
+          {
+            "location": "1059",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3037",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14408",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23403",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25563",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28881",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28882",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28883",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29326",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29449",
+            "coverage": "coverage"
+          }
+        ],
+        "numSnpLocations": 10,
+        "numSnpLocationsWithInsufficientCoverage": 0,
+        "isCloseMatch": false,
+        "snpDistanceFromFocus": 7,
+        "sameOutcodeAsFocus": false,
+        "distanceToFocusKm": "13",
+        "geographicWeighting": 0.5000011301647035
+      },
+      {
+        "sequence.sequenceID": "BIRM-5E3A0",
+        "genome_coverage": 99.99319936073991,
+        "sampling_centre_id": "Test_centre_1",
+        "institution_id": null,
+        "unit_id": null,
+        "is_healthcare_worker": null,
+        "hcw_workplace_id": null,
+        "sample_date": "29-Apr-2020",
+        "admission_status": null,
+        "admission_date": null,
+        "symptomatic": null,
+        "symptom_onset_date": null,
+        "visitors_on_ward": null,
+        "unit_history_pre": null,
+        "unit_history_post": null,
+        "adm_to_symp_onset_days": null,
+        "adm_to_sample_days": null,
+        "ambiguousSites": [],
+        "sequence.cov_glue_lineage": "B.1.1",
+        "csr_coverage": "100",
+        "focusSnpsAbsent": [
+          "C1059T",
+          "G25563T",
+          "T29326G"
+        ],
+        "focusSnpsMissing": [],
+        "snpsAbsentInFocus": [
+          "C22570T",
+          "G28881A",
+          "G28882A",
+          "G28883C"
+        ],
+        "snpsMissingInFocus": [],
+        "snpLocations": [
+          {
+            "location": "1059",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3037",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14408",
+            "coverage": "coverage"
+          },
+          {
+            "location": "22570",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23403",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25563",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28881",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28882",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28883",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29326",
+            "coverage": "coverage"
+          }
+        ],
+        "numSnpLocations": 10,
+        "numSnpLocationsWithInsufficientCoverage": 0,
+        "isCloseMatch": false,
+        "snpDistanceFromFocus": 7,
+        "sameOutcodeAsFocus": false,
+        "distanceToFocusKm": "11",
+        "geographicWeighting": 0.5000083508503951
+      },
+      {
+        "sequence.sequenceID": "BIRM-5E7A4",
+        "genome_coverage": 93.80801795368765,
+        "sampling_centre_id": "Test_centre_1",
+        "institution_id": null,
+        "unit_id": null,
+        "is_healthcare_worker": null,
+        "hcw_workplace_id": null,
+        "sample_date": "25-Apr-2020",
+        "admission_status": null,
+        "admission_date": null,
+        "symptomatic": null,
+        "symptom_onset_date": null,
+        "visitors_on_ward": null,
+        "unit_history_pre": null,
+        "unit_history_post": null,
+        "adm_to_symp_onset_days": null,
+        "adm_to_sample_days": null,
+        "ambiguousSites": [],
+        "sequence.cov_glue_lineage": "B",
+        "csr_coverage": "94",
+        "focusSnpsAbsent": [
+          "C1059T",
+          "C3037T",
+          "C14408T",
+          "A23403G",
+          "G25563T",
+          "T29326G"
+        ],
+        "focusSnpsMissing": [],
+        "snpsAbsentInFocus": [
+          "C6543T"
+        ],
+        "snpsMissingInFocus": [],
+        "snpLocations": [
+          {
+            "location": "1059",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3037",
+            "coverage": "coverage"
+          },
+          {
+            "location": "6543",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14408",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23403",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25563",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29326",
+            "coverage": "coverage"
+          }
+        ],
+        "numSnpLocations": 7,
+        "numSnpLocationsWithInsufficientCoverage": 0,
+        "isCloseMatch": false,
+        "snpDistanceFromFocus": 7,
+        "sameOutcodeAsFocus": false,
+        "distanceToFocusKm": "3",
+        "geographicWeighting": 0.5248935341839319
+      },
+      {
+        "sequence.sequenceID": "BIRM-5E9EA",
+        "genome_coverage": 99.17032201026896,
+        "sampling_centre_id": "Test_centre_1",
+        "institution_id": null,
+        "unit_id": null,
+        "is_healthcare_worker": null,
+        "hcw_workplace_id": null,
+        "sample_date": "29-Apr-2020",
+        "admission_status": null,
+        "admission_date": null,
+        "symptomatic": null,
+        "symptom_onset_date": null,
+        "visitors_on_ward": null,
+        "unit_history_pre": null,
+        "unit_history_post": null,
+        "adm_to_symp_onset_days": null,
+        "adm_to_sample_days": null,
+        "ambiguousSites": [],
+        "sequence.cov_glue_lineage": "B.1.1.1",
+        "csr_coverage": "99",
+        "focusSnpsAbsent": [
+          "C1059T",
+          "G25563T",
+          "T29326G"
+        ],
+        "focusSnpsMissing": [],
+        "snpsAbsentInFocus": [
+          "C2062T",
+          "G10097A",
+          "C23731T",
+          "G28580T",
+          "G28881A",
+          "G28882A",
+          "G28883C"
+        ],
+        "snpsMissingInFocus": [],
+        "snpLocations": [
+          {
+            "location": "1059",
+            "coverage": "coverage"
+          },
+          {
+            "location": "2062",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3037",
+            "coverage": "coverage"
+          },
+          {
+            "location": "10097",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14408",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23403",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23731",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25563",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28580",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28881",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28882",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28883",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29326",
+            "coverage": "coverage"
+          }
+        ],
+        "numSnpLocations": 13,
+        "numSnpLocationsWithInsufficientCoverage": 0,
+        "isCloseMatch": false,
+        "snpDistanceFromFocus": 10,
+        "sameOutcodeAsFocus": false,
+        "distanceToFocusKm": "3",
+        "geographicWeighting": 0.5248935341839319
+      },
+      {
+        "sequence.sequenceID": "BIRM-5EA23",
+        "genome_coverage": 95.49117617056004,
+        "sampling_centre_id": "Test_centre_2",
+        "institution_id": null,
+        "unit_id": null,
+        "is_healthcare_worker": null,
+        "hcw_workplace_id": null,
+        "sample_date": "23-Apr-2020",
+        "admission_status": null,
+        "admission_date": null,
+        "symptomatic": null,
+        "symptom_onset_date": null,
+        "visitors_on_ward": null,
+        "unit_history_pre": null,
+        "unit_history_post": null,
+        "adm_to_symp_onset_days": null,
+        "adm_to_sample_days": null,
+        "ambiguousSites": [],
+        "sequence.cov_glue_lineage": "B.1.1",
+        "csr_coverage": "95",
+        "focusSnpsAbsent": [
+          "C1059T",
+          "G25563T",
+          "T29326G"
+        ],
+        "focusSnpsMissing": [],
+        "snpsAbsentInFocus": [
+          "C22949T",
+          "C27247T",
+          "G28881A",
+          "G28882A",
+          "G28883C"
+        ],
+        "snpsMissingInFocus": [],
+        "snpLocations": [
+          {
+            "location": "1059",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3037",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14408",
+            "coverage": "coverage"
+          },
+          {
+            "location": "22949",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23403",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25563",
+            "coverage": "coverage"
+          },
+          {
+            "location": "27247",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28881",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28882",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28883",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29326",
+            "coverage": "coverage"
+          }
+        ],
+        "numSnpLocations": 11,
+        "numSnpLocationsWithInsufficientCoverage": 0,
+        "isCloseMatch": false,
+        "snpDistanceFromFocus": 8,
+        "sameOutcodeAsFocus": true,
+        "distanceToFocusKm": "0.0",
+        "geographicWeighting": 1
+      },
+      {
+        "sequence.sequenceID": "BIRM-5EC5A",
+        "genome_coverage": 99.21792648508959,
+        "sampling_centre_id": "Test_centre_2",
+        "institution_id": null,
+        "unit_id": null,
+        "is_healthcare_worker": null,
+        "hcw_workplace_id": null,
+        "sample_date": "29-Apr-2020",
+        "admission_status": null,
+        "admission_date": null,
+        "symptomatic": null,
+        "symptom_onset_date": null,
+        "visitors_on_ward": null,
+        "unit_history_pre": null,
+        "unit_history_post": null,
+        "adm_to_symp_onset_days": null,
+        "adm_to_sample_days": null,
+        "ambiguousSites": [],
+        "sequence.cov_glue_lineage": "B.1.1",
+        "csr_coverage": "99",
+        "focusSnpsAbsent": [
+          "C1059T",
+          "G25563T",
+          "T29326G"
+        ],
+        "focusSnpsMissing": [],
+        "snpsAbsentInFocus": [
+          "C2299T",
+          "G3955T",
+          "T25663C",
+          "C26936T",
+          "G28881A",
+          "G28882A",
+          "G28883C"
+        ],
+        "snpsMissingInFocus": [],
+        "snpLocations": [
+          {
+            "location": "1059",
+            "coverage": "coverage"
+          },
+          {
+            "location": "2299",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3037",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3955",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14408",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23403",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25563",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25663",
+            "coverage": "coverage"
+          },
+          {
+            "location": "26936",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28881",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28882",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28883",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29326",
+            "coverage": "coverage"
+          }
+        ],
+        "numSnpLocations": 13,
+        "numSnpLocationsWithInsufficientCoverage": 0,
+        "isCloseMatch": false,
+        "snpDistanceFromFocus": 10,
+        "sameOutcodeAsFocus": false,
+        "distanceToFocusKm": "13",
+        "geographicWeighting": 0.5000011301647035
+      },
+      {
+        "sequence.sequenceID": "BIRM-5ECA5",
+        "genome_coverage": 96.38886055289197,
+        "sampling_centre_id": "Test_centre_2",
+        "institution_id": null,
+        "unit_id": null,
+        "is_healthcare_worker": null,
+        "hcw_workplace_id": null,
+        "sample_date": "25-Apr-2020",
+        "admission_status": null,
+        "admission_date": null,
+        "symptomatic": null,
+        "symptom_onset_date": null,
+        "visitors_on_ward": null,
+        "unit_history_pre": null,
+        "unit_history_post": null,
+        "adm_to_symp_onset_days": null,
+        "adm_to_sample_days": null,
+        "ambiguousSites": [],
+        "sequence.cov_glue_lineage": "B.1.1.9",
+        "csr_coverage": "96",
+        "focusSnpsAbsent": [
+          "C1059T",
+          "G25563T",
+          "T29326G"
+        ],
+        "focusSnpsMissing": [],
+        "snpsAbsentInFocus": [
+          "C6312A",
+          "A10948G",
+          "C13011T",
+          "G28881A",
+          "G28882A",
+          "G28883C"
+        ],
+        "snpsMissingInFocus": [],
+        "snpLocations": [
+          {
+            "location": "1059",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3037",
+            "coverage": "coverage"
+          },
+          {
+            "location": "6312",
+            "coverage": "coverage"
+          },
+          {
+            "location": "10948",
+            "coverage": "coverage"
+          },
+          {
+            "location": "13011",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14408",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23403",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25563",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28881",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28882",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28883",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29326",
+            "coverage": "coverage"
+          }
+        ],
+        "numSnpLocations": 12,
+        "numSnpLocationsWithInsufficientCoverage": 0,
+        "isCloseMatch": false,
+        "snpDistanceFromFocus": 9,
+        "sameOutcodeAsFocus": true,
+        "distanceToFocusKm": "0.0",
+        "geographicWeighting": 1
+      },
+      {
+        "sequence.sequenceID": "BIRM-5EDA2",
+        "genome_coverage": 92.85252813764494,
+        "sampling_centre_id": "Test_centre_2",
+        "institution_id": null,
+        "unit_id": null,
+        "is_healthcare_worker": true,
+        "hcw_workplace_id": "Hospital_1",
+        "sample_date": "23-Apr-2020",
+        "admission_status": null,
+        "admission_date": null,
+        "symptomatic": null,
+        "symptom_onset_date": null,
+        "visitors_on_ward": null,
+        "unit_history_pre": null,
+        "unit_history_post": null,
+        "adm_to_symp_onset_days": null,
+        "adm_to_sample_days": null,
+        "ambiguousSites": [],
+        "sequence.cov_glue_lineage": "B.1.1.9",
+        "csr_coverage": "93",
+        "focusSnpsAbsent": [
+          "C1059T",
+          "G25563T",
+          "T29326G"
+        ],
+        "focusSnpsMissing": [],
+        "snpsAbsentInFocus": [
+          "C2710T",
+          "A4926C",
+          "G6975T",
+          "A10948G",
+          "G15649T",
+          "G28881A",
+          "G28882A",
+          "G28883C"
+        ],
+        "snpsMissingInFocus": [],
+        "snpLocations": [
+          {
+            "location": "1059",
+            "coverage": "coverage"
+          },
+          {
+            "location": "2710",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3037",
+            "coverage": "coverage"
+          },
+          {
+            "location": "4926",
+            "coverage": "coverage"
+          },
+          {
+            "location": "6975",
+            "coverage": "coverage"
+          },
+          {
+            "location": "10948",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14408",
+            "coverage": "coverage"
+          },
+          {
+            "location": "15649",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23403",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25563",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28881",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28882",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28883",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29326",
+            "coverage": "coverage"
+          }
+        ],
+        "numSnpLocations": 14,
+        "numSnpLocationsWithInsufficientCoverage": 0,
+        "isCloseMatch": false,
+        "snpDistanceFromFocus": 11,
+        "sameOutcodeAsFocus": true,
+        "distanceToFocusKm": "0.0",
+        "geographicWeighting": 1
+      },
+      {
+        "sequence.sequenceID": "BIRM-5EEAF",
+        "genome_coverage": 99.98979904110986,
+        "sampling_centre_id": "Test_centre_2",
+        "institution_id": null,
+        "unit_id": null,
+        "is_healthcare_worker": null,
+        "hcw_workplace_id": null,
+        "sample_date": "01-May-2020",
+        "admission_status": null,
+        "admission_date": null,
+        "symptomatic": null,
+        "symptom_onset_date": null,
+        "visitors_on_ward": null,
+        "unit_history_pre": null,
+        "unit_history_post": null,
+        "adm_to_symp_onset_days": null,
+        "adm_to_sample_days": null,
+        "ambiguousSites": [],
+        "sequence.cov_glue_lineage": "B.1",
+        "csr_coverage": "100",
+        "focusSnpsAbsent": [
+          "C1059T",
+          "T29326G"
+        ],
+        "focusSnpsMissing": [],
+        "snpsAbsentInFocus": [
+          "T1918C",
+          "C18877T",
+          "T26129G",
+          "G28882T",
+          "G29348T"
+        ],
+        "snpsMissingInFocus": [],
+        "snpLocations": [
+          {
+            "location": "1059",
+            "coverage": "coverage"
+          },
+          {
+            "location": "1918",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3037",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14408",
+            "coverage": "coverage"
+          },
+          {
+            "location": "18877",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23403",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25563",
+            "coverage": "coverage"
+          },
+          {
+            "location": "26129",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28882",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29326",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29348",
+            "coverage": "coverage"
+          }
+        ],
+        "numSnpLocations": 11,
+        "numSnpLocationsWithInsufficientCoverage": 0,
+        "isCloseMatch": false,
+        "snpDistanceFromFocus": 7,
+        "sameOutcodeAsFocus": true,
+        "distanceToFocusKm": "0.0",
+        "geographicWeighting": 1
+      },
+      {
+        "sequence.sequenceID": "BIRM-5EEFA",
+        "genome_coverage": 99.23832840286987,
+        "sampling_centre_id": "Test_centre_2",
+        "institution_id": null,
+        "unit_id": null,
+        "is_healthcare_worker": null,
+        "hcw_workplace_id": null,
+        "sample_date": "01-May-2020",
+        "admission_status": null,
+        "admission_date": null,
+        "symptomatic": null,
+        "symptom_onset_date": null,
+        "visitors_on_ward": null,
+        "unit_history_pre": null,
+        "unit_history_post": null,
+        "adm_to_symp_onset_days": null,
+        "adm_to_sample_days": null,
+        "ambiguousSites": [],
+        "sequence.cov_glue_lineage": "B.2.2",
+        "csr_coverage": "99",
+        "focusSnpsAbsent": [
+          "C1059T",
+          "C3037T",
+          "C14408T",
+          "A23403G",
+          "G25563T",
+          "T29326G"
+        ],
+        "focusSnpsMissing": [],
+        "snpsAbsentInFocus": [
+          "A1515G",
+          "C2676T",
+          "C9223T",
+          "G11083T",
+          "C14805T",
+          "G16212T",
+          "T17247C",
+          "A17799G",
+          "C17876T",
+          "T23287C",
+          "G26144T",
+          "G28580T",
+          "T28894C"
+        ],
+        "snpsMissingInFocus": [],
+        "snpLocations": [
+          {
+            "location": "1059",
+            "coverage": "coverage"
+          },
+          {
+            "location": "1515",
+            "coverage": "coverage"
+          },
+          {
+            "location": "2676",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3037",
+            "coverage": "coverage"
+          },
+          {
+            "location": "9223",
+            "coverage": "coverage"
+          },
+          {
+            "location": "11083",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14408",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14805",
+            "coverage": "coverage"
+          },
+          {
+            "location": "16212",
+            "coverage": "coverage"
+          },
+          {
+            "location": "17247",
+            "coverage": "coverage"
+          },
+          {
+            "location": "17799",
+            "coverage": "coverage"
+          },
+          {
+            "location": "17876",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23287",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23403",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25563",
+            "coverage": "coverage"
+          },
+          {
+            "location": "26144",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28580",
+            "coverage": "coverage"
+          },
+          {
+            "location": "28894",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29326",
+            "coverage": "coverage"
+          }
+        ],
+        "numSnpLocations": 19,
+        "numSnpLocationsWithInsufficientCoverage": 0,
+        "isCloseMatch": false,
+        "snpDistanceFromFocus": 19,
+        "sameOutcodeAsFocus": false,
+        "distanceToFocusKm": "13",
+        "geographicWeighting": 0.5000011301647035
+      },
+      {
+        "sequence.sequenceID": "BIRM-7DF01",
+        "genome_coverage": 95.52857968649053,
+        "sampling_centre_id": "Test_centre_1",
+        "institution_id": null,
+        "unit_id": null,
+        "is_healthcare_worker": true,
+        "hcw_workplace_id": "Hospital_1",
+        "sample_date": "09-May-2020",
+        "admission_status": null,
+        "admission_date": null,
+        "symptomatic": null,
+        "symptom_onset_date": null,
+        "visitors_on_ward": null,
+        "unit_history_pre": null,
+        "unit_history_post": null,
+        "adm_to_symp_onset_days": null,
+        "adm_to_sample_days": null,
+        "ambiguousSites": [],
+        "sequence.cov_glue_lineage": "B.1",
+        "csr_coverage": "96",
+        "focusSnpsAbsent": [],
+        "focusSnpsMissing": [],
+        "snpsAbsentInFocus": [],
+        "snpsMissingInFocus": [],
+        "snpLocations": [
+          {
+            "location": "1059",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3037",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14408",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23403",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25563",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29326",
+            "coverage": "coverage"
+          }
+        ],
+        "numSnpLocations": 6,
+        "numSnpLocationsWithInsufficientCoverage": 0,
+        "isCloseMatch": true,
+        "snpDistanceFromFocus": 0,
+        "sameOutcodeAsFocus": false,
+        "distanceToFocusKm": "13",
+        "geographicWeighting": 0.5000011301647035
+      },
+      {
+        "sequence.sequenceID": "BIRM-91GF7",
+        "genome_coverage": 95.52857968649053,
+        "sampling_centre_id": "Test_centre_1",
+        "institution_id": null,
+        "unit_id": null,
+        "is_healthcare_worker": null,
+        "hcw_workplace_id": null,
+        "sample_date": "29-Apr-2020",
+        "admission_status": null,
+        "admission_date": null,
+        "symptomatic": null,
+        "symptom_onset_date": null,
+        "visitors_on_ward": null,
+        "unit_history_pre": null,
+        "unit_history_post": null,
+        "adm_to_symp_onset_days": null,
+        "adm_to_sample_days": null,
+        "ambiguousSites": [],
+        "sequence.cov_glue_lineage": "B.1",
+        "csr_coverage": "96",
+        "focusSnpsAbsent": [],
+        "focusSnpsMissing": [],
+        "snpsAbsentInFocus": [],
+        "snpsMissingInFocus": [],
+        "snpLocations": [
+          {
+            "location": "1059",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3037",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14408",
+            "coverage": "coverage"
+          },
+          {
+            "location": "23403",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25563",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29326",
+            "coverage": "coverage"
+          }
+        ],
+        "numSnpLocations": 6,
+        "numSnpLocationsWithInsufficientCoverage": 0,
+        "isCloseMatch": true,
+        "snpDistanceFromFocus": 0,
+        "sameOutcodeAsFocus": false,
+        "distanceToFocusKm": "3",
+        "geographicWeighting": 0.5248935341839319
+      },
+      {
+        "sequence.sequenceID": "BIRM-92AB1",
+        "genome_coverage": 95.49117617056004,
+        "sampling_centre_id": null,
+        "institution_id": "Hospital_1",
+        "unit_id": null,
+        "is_healthcare_worker": false,
+        "hcw_workplace_id": null,
+        "sample_date": "25-Apr-2020",
+        "admission_status": "a_and_e_patient",
+        "admission_date": null,
+        "symptomatic": true,
+        "symptom_onset_date": "21-Apr-2020",
+        "visitors_on_ward": null,
+        "unit_history_pre": "Unit_3",
+        "unit_history_post": null,
+        "adm_to_symp_onset_days": null,
+        "adm_to_sample_days": null,
+        "ambiguousSites": [],
+        "sequence.cov_glue_lineage": "B.1",
+        "csr_coverage": "95",
+        "focusSnpsAbsent": [],
+        "focusSnpsMissing": [
+          "C14408T"
+        ],
+        "snpsAbsentInFocus": [],
+        "snpsMissingInFocus": [],
+        "snpLocations": [
+          {
+            "location": "1059",
+            "coverage": "coverage"
+          },
+          {
+            "location": "3037",
+            "coverage": "coverage"
+          },
+          {
+            "location": "14408",
+            "coverage": "no_coverage"
+          },
+          {
+            "location": "23403",
+            "coverage": "coverage"
+          },
+          {
+            "location": "25563",
+            "coverage": "coverage"
+          },
+          {
+            "location": "29326",
+            "coverage": "coverage"
+          }
+        ],
+        "numSnpLocations": 6,
+        "numSnpLocationsWithInsufficientCoverage": 1,
+        "isCloseMatch": true,
+        "snpDistanceFromFocus": 0,
+        "sameOutcodeAsFocus": false,
+        "distanceToFocusKm": "11",
+        "geographicWeighting": 0.5000083508503951
+      }
+    ],
+    "statistics": {
+      "focusSeqGenomeCoveragePct": "96",
+      "priorProbability": "100",
+      "unitMatchProportion": "67",
+      "institutionMatchProportion": "50",
+      "communityMatchProportion": "14",
+      "posteriorUnitInfection": "54",
+      "posteriorInstitutionInfection": "40",
+      "posteriorVisitorInfection": "6",
+      "posteriorCommunityInfection": "0",
+      "posteriorNotes": [],
+      "unitReferenceSetSize": 3,
+      "institutionReferenceSetSize": 4,
+      "communityReferenceSetSize": 17,
+      "numCloseMatchesUnit": 2,
+      "numCloseMatchesInstitution": 2,
+      "numCloseMatchesInstitutionHcw": 1
+    }
+  }
+}

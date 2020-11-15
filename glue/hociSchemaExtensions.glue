@@ -1,0 +1,39 @@
+create custom-table hoci_metadata
+create custom-table hoci_missing_nt_block --idFieldLength 200
+
+create link sequence hoci_metadata -m ONE_TO_ONE
+create link sequence hoci_missing_nt_block -m ONE_TO_MANY
+
+table sequence
+  create field hoci_processed BOOLEAN
+  exit
+
+table hoci_metadata
+  create field sampling_centre_id VARCHAR
+  create field institution_id VARCHAR
+  create field genome_coverage DOUBLE
+  create field unit_id VARCHAR
+  create field is_healthcare_worker BOOLEAN
+  create field hcw_workplace_id VARCHAR
+  create field residential_outer_postcode VARCHAR
+  create field sample_date DATE
+  create field admission_status VARCHAR
+  create field admission_date DATE
+  create field symptomatic BOOLEAN
+  create field symptom_onset_date DATE
+  create field visitors_on_ward BOOLEAN
+  # difference in days between date of admission and date of symptom onset 
+  # set to 0 if symptom onset before admission, set to null if either null 
+  create field adm_to_symp_onset_days INTEGER
+  # difference in days between date of admission and date of sample
+  # set to 0 if sample before admission, set to null if either null 
+  create field adm_to_sample_days INTEGER
+  create field unit_history_pre VARCHAR
+  create field unit_history_post VARCHAR
+  exit
+  
+table hoci_missing_nt_block
+  create field ref_start INTEGER
+  create field ref_end INTEGER
+  exit
+

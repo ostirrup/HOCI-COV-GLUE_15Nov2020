@@ -1,0 +1,14 @@
+delete module -w "name like 'hoci%'"
+
+# individual validate commands here as we're not doing it at the project level.
+create module --fileName modules/hociProcessSite.xml --loadResources
+module hociProcessSite validate
+
+create module --fileName modules/hociGenerateReport.xml --loadResources
+module hociGenerateReport validate
+
+create module --fileName modules/hociSummaryReportTransformer.xml --loadResources
+module hociSummaryReportTransformer validate
+
+create module --fileName modules/hociDetailedReportTransformer.xml --loadResources
+module hociDetailedReportTransformer validate

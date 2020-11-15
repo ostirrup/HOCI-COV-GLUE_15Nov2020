@@ -1,0 +1,22 @@
+sequenceID	samplingCentreID	institutionID	unitID	isHealthcareWorker	hcwWorkplaceID	residentialOuterPostcode	sampleDate	admissionStatus	admissionDate	symptomatic	symptomOnsetDate	visitorsOnWard	anotherColumn	unitHistoryPre	unitHistoryPost
+BIRM-04GA5		Hospital_1	Unit_1	FALSE		B26	01-May-20	unknown	05-Apr-20	TRUE	23-Apr-20	TRUE			
+BIRM-07H34		Hospital_1	Unit_1	FALSE		B27	23-Apr-20	inpatient	04-Apr-20	FALSE		TRUE			
+BIRM-08AB1		Hospital_1		FALSE		B44	25-Apr-20	outpatient		TRUE	21-Apr-20				
+BIRM-09BF7	Test_centre_1					B44	09-May-20								
+BIRM-09D12	Test_centre_1					B27	29-Apr-20								
+BIRM-85DC1		Hospital_1	Unit_1	FALSE		B27	23-Apr-20	inpatient	04-Apr-20	FALSE		TRUE			
+BIRM-92AB1		Hospital_1		FALSE		B21	25-xxx-20	a_and_e_patient		TRUE	21-Apr-20				
+BIRM-7DF01	Test_centre_1			TRUE	Hospital_1	B31	09-May-20								
+BIRM-91GF7	Test_centre_1					X23	29-Apr-20								
+BIRM-922FD		Hospital_1	Unit_1	FALSE		B26	02-May-20	inpatient	01-Apr-20	TRUE	29-Apr-20	TRUE			
+BIRM-5E2A3	Test_centre_1					B44	23-Apr-20								
+BIRM-5E30A	Test_centre_4					B31	29-Apr-20								
+BIRM-5E3A0	Test_centre_1					B44	29-Apr-20								
+BIRM-5E7A4	Test_centre_1					B27	25-Apr-20								
+BIRM-5E9EA	Test_centre_1					B27	29-Apr-20								
+BIRM-5EA23	Test_centre_2					B26	23-Apr-20								
+BIRM-5EC5A	Test_centre_2					B31	29-Apr-20								
+BIRM-5ECA5	Test_centre_2					B26	25-Apr-20								
+BIRM-5EDA2	Test_centre_2			kjhkh	Hospital_1	B26	23-Apr-20								
+BIRM-5EEAF	Test_centre_2					B26	01-May-20								
+BIRM-5EEFA	Test_centre_2					B31	01-May-20								

@@ -1,0 +1,38 @@
+@media print {
+	@page {
+		margin: 5mm;
+	}
+
+	.table-block {
+		display: block;
+	}
+}
+
+.table td,
+.table th {
+	padding: 0.3rem;
+}
+
+.table thead th {
+	vertical-align: top;
+}
+
+#page-top {
+	-webkit-print-color-adjust: exact;
+}
+
+#wrapper #content-wrapper {
+	background-color: white;
+}
+
+.d-inline-block.mb-1 {
+	width: 100%;
+}
+
+.no-border th {
+	border: 0;
+}
+
+.card {
+	margin-top: 2rem;
+}

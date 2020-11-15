@@ -1,0 +1,36 @@
+@media print {
+  @page {
+    margin: 0;
+  }
+  body { margin: 0; }
+}
+
+.container, body {
+  min-width: 1240px!important;
+}
+
+.table td, .table th {
+  padding: .3rem;
+}
+
+#page-top {
+  height: 1750px;
+  color: black;
+  width: 1240px;
+  font-size: 1.3rem;
+  -webkit-print-color-adjust: exact;
+}
+
+#wrapper {
+  height: 1750px;
+  width: 1240px;
+}
+
+#wrapper #content-wrapper {
+  background-color: white;
+}
+
+.d-inline-block.mb-1 {
+  width: 100%;
+}
+

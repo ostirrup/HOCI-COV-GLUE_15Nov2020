@@ -1,0 +1,21 @@
+<ecmaFunctionInvoker>
+	<scriptFileName>hociAlignmentRow.js</scriptFileName>
+	<scriptFileName>hociUnitLayouts.js</scriptFileName>
+	<scriptFileName>hociCheckGlueVersion.js</scriptFileName>
+	<scriptFileName>hociLoadSiteJson.js</scriptFileName>
+	<scriptFileName>hociMetadataFields.js</scriptFileName>
+	<scriptFileName>hociDateUtils.js</scriptFileName>
+	<scriptFileName>hociDataTypes.js</scriptFileName>
+	<scriptFileName>hociCheckFocusSequence.js</scriptFileName>
+	<scriptFileName>hociSelectReferenceSet.js</scriptFileName>
+	<scriptFileName>hociPostcodeDistricts.js</scriptFileName>
+	<scriptFileName>hociGenerateReport.js</scriptFileName>
+	<scriptFileName>hociAssignLineages.js</scriptFileName>
+	<function>
+		<name>generateReport</name>
+		<parameter>
+			<name>indexSequenceIDsString</name>
+		</parameter>
+		<okFromNullResultType/> 
+	</function>
+</ecmaFunctionInvoker>

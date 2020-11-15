@@ -1,0 +1,20 @@
+{
+	"site-id": "birmingham",
+	"site-display-name": "Birmingham",
+	"geographic-weighting-beta": 0.5,
+	"geographic-weighting-tau": 1.0,
+	"samplingCentres": [
+		"Test_centre_1", "Test_centre_2"
+	],
+	"institutions": [
+		{ "id": "Hospital_1", "units": [
+			{ "id": "Unit_1", "layout": "single_bed" },
+			{ "id": "Unit_2", "layout": "bay" },
+			{ "id": "Unit_3", "layout": "nightingale" }
+		] },
+		{ "id": "Hospital_2", "units": [
+			{ "id": "Unit_1", "layout": "bay" },
+			{ "id": "Unit_2", "layout": "bay" }
+		] }
+	]
+}

@@ -1,0 +1,25 @@
+<ecmaFunctionInvoker>
+	<scriptFileName>hociAlignmentRow.js</scriptFileName>
+	<scriptFileName>hociUnitLayouts.js</scriptFileName>
+	<scriptFileName>hociDataTypes.js</scriptFileName>
+	<scriptFileName>hociCheckGlueVersion.js</scriptFileName>
+	<scriptFileName>hociLoadSiteJson.js</scriptFileName>
+	<scriptFileName>hociMetadataFields.js</scriptFileName>
+	<scriptFileName>hociDateUtils.js</scriptFileName>
+	<scriptFileName>hociLoadSequencesAndMetadata.js</scriptFileName>
+	<scriptFileName>hociProcessSiteSequences.js</scriptFileName>
+	<scriptFileName>hociPostcodeDistricts.js</scriptFileName>
+	<scriptFileName>hociProcessSite.js</scriptFileName>
+	<function>
+		<name>processSite</name>
+		<okFromNullResultType/> 
+	</function>
+	<function>
+		<name>updateSite</name>
+		<okFromNullResultType/> 
+	</function>
+	<function>
+		<name>resetSite</name>
+		<okFromNullResultType/> 
+	</function>
+</ecmaFunctionInvoker>

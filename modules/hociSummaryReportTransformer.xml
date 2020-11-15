@@ -1,0 +1,7 @@
+<freemarkerDocTransformer>
+	<templateFileName>hociSummaryReport.template.ftlh</templateFileName>
+	<resourceFileName>hociSummaryReport.template.css</resourceFileName>
+	<resourceFileName>hociReports.bootstrap.min.css</resourceFileName>
+	<resourceFileName>hociReports.logo-cog-uk.png</resourceFileName>
+	<resourceFileName>hociReports.logo-hoci.png</resourceFileName>
+</freemarkerDocTransformer>
