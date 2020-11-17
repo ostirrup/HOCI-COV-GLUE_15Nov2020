@@ -1,5 +1,9 @@
 # HOCI Reporting Tool
 
+## Note
+
+This is a static clone of the development repository for this software project. The Git history does not reflect code authorship largely by Joshua Singer and Asif Tamuri.
+
 ## Installation
 
 First you need to ensure you have access to the CLIMB GLUE VM and a personal GLUE instance on it. Follow the instructions here:
